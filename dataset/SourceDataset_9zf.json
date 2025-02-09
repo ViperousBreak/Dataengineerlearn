@@ -1,0 +1,21 @@
+{
+	"name": "SourceDataset_9zf",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ejemploimportacion",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "azure-data-factory-by-example-main.zip",
+				"container": "blobnuevo"
+			},
+			"compression": {
+				"type": "ZipDeflate"
+			}
+		}
+	}
+}
