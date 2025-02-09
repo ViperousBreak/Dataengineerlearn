@@ -1,0 +1,9 @@
+{
+	"name": "mifactorio",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "22fd6f6a-6193-4ae3-b04b-9ba50b42c4c7",
+		"tenantId": "7f76c14a-df03-4c7b-b5cf-094618a26f09"
+	}
+}
